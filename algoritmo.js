@@ -3,16 +3,15 @@
 // y con ello tendremos que desarrollar un condicional if que registre si la variable de string y su reverso son lo mismo, si no, dará un error.
 
 function esPalindromo(str){
-    let strReverse = str.split('').reverse().join(''); // creamos el reverso del str
+    //Info sacada de: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/split
+    let strReverse = str.split('').reverse().join(''); // creamos el reverso del str. 
     let strArray = [str, strReverse] // creamos el array  
-    for (let i = 0; i = strArray; ++i){
+    for (let i = 0; i < 1; i++){ //bucle que itere con nuestra array y que con el if nos diga si str y str reverse son iguales, si no, nos dirá que no lo es. 
         if (str === strReverse){
             console.log('Es un palindromo')
-            break;
         }
         else {
             console.log('No es un palindromo')
-            break;
         }
     }
 }
