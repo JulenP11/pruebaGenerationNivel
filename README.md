@@ -22,3 +22,4 @@ HTML
 10. Busca todos los div de la página.
 11. Busca los div que contienen la clase agregada al punto 3.
 12. Busca los div que tienen el id agregado en punto 5.
+    Respondido en: html.js
