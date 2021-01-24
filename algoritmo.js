@@ -5,7 +5,6 @@
 function esPalindromo(str){
     //Info sacada de: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/split
     let strReverse = str.split('').reverse().join(''); // creamos el reverso del str.  
-    for (let i = 0; i < 1; i++){ //bucle que itere con nuestra array y que con el if nos diga si str y str reverse son iguales, si no, nos dirá que no lo es. 
         if (str === strReverse){
             console.log('Es un palindromo')
         }
@@ -13,4 +12,3 @@ function esPalindromo(str){
             console.log('No es un palindromo')
         }
     }
-}
