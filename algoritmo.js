@@ -11,4 +11,7 @@ function esPalindromo(str){
         else {
             console.log('No es un palindromo')
         }
-    }
+}
+
+esPalindromo('ababa'); //Es un palindromo
+esPalindromo('geeksforgeeks'); //No es un palindromo
