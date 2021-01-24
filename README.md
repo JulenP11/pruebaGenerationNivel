@@ -1,12 +1,14 @@
 Algoritmia
 
 1. Demuestra que la siguiente cadena 'geeksforgeeks' no es un palíndromo.
-   Respondido en: algoritmo.js
+
+Respondido en: algoritmo.js
 
 CSS
 
 1. Diferencias entre flexbox y grid.
-   Respondido en: flexvsgrid.md
+
+Respondido en: flexvsgrid.md
 
 HTML
 
@@ -22,4 +24,5 @@ HTML
 10. Busca todos los div de la página.
 11. Busca los div que contienen la clase agregada al punto 3.
 12. Busca los div que tienen el id agregado en punto 5.
-    Respondido en: html.js
+
+Respondido en: html.js

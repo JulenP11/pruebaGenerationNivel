@@ -27,4 +27,4 @@ document.querySelectorAll('.red')
 document.getElementsByClassName("red")
 // 12. Busca los div que tienen el id agregado en punto 5.
 document.getElementById("Julen")
-document.querySelectorAll("#julen")
+document.querySelectorAll("#Julen")
